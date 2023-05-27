@@ -13,9 +13,38 @@
 ```
 Example :
 Talk...
-tell me about india          # your question
 Done.
-India, officially the Republic of India (ISO: Bhārat Gaṇarājya),[25] is a country in South Asia. It is the seventh-largest country by area, and the most populous country in the world as of 1 May 2023.[26][27] Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest
+result:
+{   'alternative': [   {   'confidence': 0.92995495,
+                           'transcript': 'tell me about Albert Einstein '
+                                         'invention'},
+                       {   'transcript': 'tell me about Albert Einstein '
+                                         'inventions'},
+                       {   'transcript': 'tell me about Albert Einstein in '
+                                         'invention'},
+                       {   'transcript': 'tell me about Albert Einstein and '
+                                         'invention'},
+                       {   'transcript': 'tel me about Albert Einstein '
+                                         'invention'}],
+    'final': True}
+> Albert Einstein ( EYEN-styne; German: [ˈalbɛʁt ˈʔaɪnʃtaɪn] (listen); 14 March 1879 – 18 April 1955) was a 
+German-born theoretical physicist, widely acknowledged to be one of the greatest and most influential physicists of all time. 
+Best known for developing the theory of relativity, he also made important contributions to the development of 
+the theory of quantum mechanics.
+```
+```
+Talk...
+Done.
+result2:
+{   'alternative': [   {   'confidence': 0.69254971,
+                           'transcript': 'who is God Rama'},
+                       {'transcript': 'who is ko Rahman'},
+                       {'transcript': 'who is rama'},
+                       {'transcript': 'who is ko Rama'},
+                       {'transcript': 'who is God Rama'}],
+    'final': True}
+> Rama (; Sanskrit: राम, romanized: Rāma; Sanskrit: [ˈraːmɐ] (listen)) is a major deity in Hinduism. 
+He is the seventh and one of the most popular avatars of Vishnu.
 ```
 
 <sub>This answer is say by python <br>
